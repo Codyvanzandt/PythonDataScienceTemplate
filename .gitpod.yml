@@ -1,6 +1,5 @@
-tasks:
-  - init: pip3 install -r requirements.txt && alias notebook="jupyter notebook --NotebookApp.allow_origin='*'"
-
+image:
+  file: .gitpod.dockerfile
 ports:
   - port: 8888
   - port: 38888

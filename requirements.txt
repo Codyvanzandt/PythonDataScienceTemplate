@@ -5,6 +5,5 @@ pandas
 scikit-learn
 jupyter
 matplotlib
-altair
 nltk
 scrapy

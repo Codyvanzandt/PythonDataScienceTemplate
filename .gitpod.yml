@@ -4,7 +4,6 @@ tasks:
   - command: alias notebook="jupyter notebook --NotebookApp.allow_origin='*'"
 ports:
   - port: 8888
-    onOpen: open-browser
   - port: 38888
     onOpen: open-browser
 github:

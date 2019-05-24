@@ -1,5 +1,10 @@
 tasks:
-  - init: pip3 install -r requirements.txt
+  - init: pip3 install -r requirements.txt && alias notebook="jupyter notebook --NotebookApp.allow_origin='*'"
+
+ports:
+  - port: 8888
+  - port: 38888
+    onOpen: open-browser
 github:
   prebuilds:
     master: true

@@ -1,7 +1,3 @@
 FROM gitpod/workspace-full
 
-USER root
-
-RUN pip install -r ./requirements.txt
-
-USER gitpod
+RUN python3 im pip install -r requirements.txt

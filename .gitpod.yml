@@ -1,5 +1,5 @@
 image:
-  file: .gitpod.dockerfile
+  file: dockerfile
 ports:
   - port: 8888
   - port: 38888

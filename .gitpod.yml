@@ -1,5 +1,7 @@
 image:
   file: dockerfile
+tasks:
+  - init: alias notebook="jupyter notebook --NotebookApp.allow_origin='*'"
 ports:
   - port: 8888
   - port: 38888

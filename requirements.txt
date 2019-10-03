@@ -1,4 +1,11 @@
-# Adding basic packages
+# Unit testing, formatting, generic project utils
+pytest
+coverage
+pytest-cov
+black
+pyyaml >=4.2b1
+
+# Data science-y packages
 numpy
 scipy
 pandas
@@ -6,5 +13,6 @@ scikit-learn
 jupyter
 matplotlib
 altair
-nltk
+spacy
+spacy-lookups-data
 scrapy
